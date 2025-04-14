@@ -12,6 +12,48 @@
   <title>JS Exam</title>
 </head>
 
+<div class="wrapper">
+  <main>
+    <article class="user-list">
+      <div class="user-list__container">
+        <div class="user-list__body">
+          <h2 class="user-list__title">Test</h2>
+
+          <form class="user-list__form form-user-list">
+            <div class="form-user-list__column form-user-list__column_large">
+              <label for="key-value-input" class="form-user-list__label">Name/Value Pair</label>
+
+              <input placeholder="Name=Value" class="form-user-list__input" id="key-value-input">
+            </div>
+            <div class="form-user-list__column">
+              <button class="form-user-list__add-button">Add</button>
+            </div>
+          </form>
+
+          <div class="user-list__content content-user-list">
+            <p class="content-user-list">Name/Value Pair List</p>
+
+            <div class="content-user-list__column content-user-list__column_large">
+              <div class="content-user-list__items">
+                <div class="content-user-list__item"></div>
+              </div>
+            </div>
+            <div class="content-user-list__column">
+              <div class="content-user-list__buttons">
+                <button class="content-user-list__button content-user-list__button_sort-name">Sort By Name</button>
+
+                <button class="content-user-list__button content-user-list__button_sort-value">Sort By Value</button>
+
+                <button class="content-user-list__button content-user-list__button_delete">Delete</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+</div>
 
 <body>
   <script src="./js/index.js"></script>
