@@ -72,6 +72,7 @@
   line-height: 1.2;
   color: #2b2c34;
   font-size: clamp(14px, 2.4vw, 16px);
+  display: none;
 }
 
 .form-user-list__add-button:hover {
@@ -165,6 +166,11 @@
 
 .content-user-list__button_delete:hover {
   background-color: rgb(233, 72, 72);
+}
+
+button.content-user-list__button_disable {
+  pointer-events: none;
+  opacity: 0.6;
 }
 
 .content-user-list__button_selected {
